@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="titleContainer">
+      <h1>Expense Tracker</h1>
+    </div>
+    <div class="formContainer">
+      <label for="item">Item</label>
+      <input type="text" name="item" placeholder="Item" id="item" />
+
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" />
+
+      <label for="cost">Cost</label>
+      <input type="text" name="cost" placeholder="cost" id="cost" />
+    </div>
+    <div class="buttonContainer">
+      <button id="entry">Submit Expense</button>
+      <button id="clear" onclick="window.location.reload()">Clear List</button>
+    </div>
+    <div class="tableContainer">
+      <table id="display">
+        <tr>
+          <th>Item</th>
+          <th>Date</th>
+          <th>Cost</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

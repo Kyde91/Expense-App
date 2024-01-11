@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.titleContainer {
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+}
+
+.formContainer {
+  text-align: center;
+}
+
+.buttonContainer {
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+}
+
+.tableContainer {
+  height: 100%;
+  width: auto;
+  padding: 30px;
+}
+
+#display {
+  width: 80%;
+  margin: auto;
+  border: solid 1px black;
+  background-color: aqua;
+}
+
+th {
+  font-size: 32px;
+  border: solid 1px black;
+}
+
+td {
+  text-align: center;
+  border: solid 1px black;
+}
