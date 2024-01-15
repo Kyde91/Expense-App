@@ -3,21 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="titleContainer">
-      <h1>Expense Tracker</h1>
+      <h1 class="title">Expense Tracker</h1>
     </div>
     <div class="formContainer">
-      <label for="item">Item</label>
+      <label for="item" class="label">Item</label>
       <input type="text" name="item" placeholder="Item" id="item" />
 
-      <label for="date">Date</label>
+      <label for="date" class="label">Date</label>
       <input type="date" name="date" id="date" />
 
-      <label for="cost">Cost</label>
+      <label for="cost" class="label">Cost</label>
       <input type="number" name="cost" placeholder="cost" id="cost" />
     </div>
     <div class="buttonContainer">

@@ -6,35 +6,77 @@
 body {
   height: 100vh;
   width: 100vw;
+  color: rgb(243, 227, 209);
+  font-family: "Kanit", sans-serif;
+  background-image: radial-gradient(rgb(90, 100, 97), rgba(36, 35, 35, 0.808));
 }
 
+/* title and form styling */
 .titleContainer {
   text-align: center;
   padding: 30px;
   margin: auto;
 }
 
-.formContainer {
-  text-align: center;
+.title {
+  font-size: 48px;
 }
 
+.formContainer {
+  text-align: center;
+  font-size: 24px;
+}
+
+#item,
+#date,
+#cost {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 1px black;
+  text-indent: 5px;
+  text-transform: capitalize;
+  font-size: 22px;
+  color: black;
+  margin: 10px;
+}
+
+/* button styling */
 .buttonContainer {
   text-align: center;
   padding: 30px;
   margin: auto;
 }
 
-.tableContainer {
-  height: 100%;
-  width: auto;
-  padding: 30px;
+#entry {
+  width: 10%;
+  height: 30px;
+  font-family: "Kanit", sans-serif;
+  border-radius: 5px;
+  border: solid 1px #278f27;
+  background-image: radial-gradient(rgb(108, 112, 111), rgb(60, 82, 61));
+  color: rgb(243, 227, 209);
+}
+
+#clear {
+  width: 10%;
+  height: 30px;
+  font-family: "Kanit", sans-serif;
+  border-radius: 5px;
+  border: solid 1px #6e0606;
+  background-image: radial-gradient(rgb(108, 112, 111), rgb(82, 60, 60));
+  color: rgb(243, 227, 209);
 }
 
 #display {
   width: 80%;
   margin: auto;
-  border: solid 1px black;
-  background-color: aqua;
+  border-image: radial-gradient(#ffffff, rgb(66, 53, 49)) 1 / 1px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.24),
+    rgba(204, 194, 194, 0.815)
+  );
 }
 
 th {
@@ -45,4 +87,10 @@ th {
 td {
   text-align: center;
   border: solid 1px black;
+}
+
+@media screen and (max-width: 1200px) {
+  label.label {
+    display: none;
+  }
 }
